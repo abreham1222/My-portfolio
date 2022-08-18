@@ -208,6 +208,10 @@ nav {
   background: rgba(255, 255, 255, 0.24);
 }
 
+a {
+  text-decoration: none;
+}
+
 .see-proj {
   display: block;
   margin-left: auto;
