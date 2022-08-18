@@ -122,7 +122,8 @@ nav {
 
 .course {
   display: flex;
-  gap: 12px;
+  gap: 15px;
+  margin-left: -40px;
 }
 
 .list {
@@ -223,5 +224,29 @@ nav {
   transition: all 0.2s ease-in-out;
   background: #fff5e1;
   border: 1px solid #f55800;
-  color: #853c00;
+  color: 
+  #853c00;
 }
+
+.about {
+  background: #1c1a19;
+  height: auto;
+}
+
+.about-me {
+  margin-top: 40px;
+  padding-top: 120px;
+  padding-bottom: 209px;
+  background-image: url("Images/skeloton/Group.png");
+  background-repeat: no-repeat;
+  background-size: 493px 258px;
+  background-position: bottom right -305px;
+  margin-left: 20px;
+}
+
+.about-head {
+  margin: 24px 0;
+  font-size: 72px;
+  color: #ff6b00;
+}
+
