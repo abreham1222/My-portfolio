@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Desktop version Personal Portfolio and deploy to online
+# My-portfolio
 
 > This is a project for Desktop Version portfolio that deploy on online using github pages.
 

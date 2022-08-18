@@ -1,3 +1,6 @@
+body {
+  margin: auto;
+}
 nav {
   height: 60px;
   display: flex;
