@@ -79,3 +79,44 @@ nav {
   display: flex;
   justify-content: center;
 }
+
+.recent-container {
+  width: 100%;
+}
+
+.recent-work {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.about-hr {
+  border: 1px dotted #000;
+  margin-bottom: 15px;
+}
+
+.image-p {
+  margin: 20px;
+}
+
+.image-placeholder {
+  width: 100%;
+}
+
+.multi-post {
+  font-weight: 400;
+  font-size: 32px;
+  margin-top: 50px;
+  color: #091e42;
+}
+
+.recent-detail {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #091e42;
+  margin-right: 30px;
+}
+
