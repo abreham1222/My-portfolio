@@ -270,3 +270,32 @@ nav {
   color: #f55800;
 }
 
+.hello {
+  font-family: "Inter", serif;
+  margin: 24px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.about-separater {
+  border: 1px solid #fff;
+  margin-bottom: 136px;
+}
+
+.technologies {
+  list-style: none;
+  text-align: center;
+}
+
+.tech-title {
+  height: 41.46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
