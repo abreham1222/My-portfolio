@@ -299,3 +299,18 @@ nav {
   margin-bottom: 2px;
 }
 
+.tech {
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+  text-align: center;
+  height: 48px;
+  font-family: "Inter", serif;
+  color: #fff;
+}
+
+.tech-title > h5 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
