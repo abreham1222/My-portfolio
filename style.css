@@ -195,7 +195,6 @@ nav {
   gap: 12px;
   margin-left: -20px;
   margin-top: 40px;
-  float: right;
 }
 
 .pro-h {
@@ -323,3 +322,4 @@ a {
   font-size: 32px;
   color: #fff;
 }
+
