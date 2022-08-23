@@ -352,6 +352,7 @@ input[type="email"] {
   margin-right: 24px;
   width: 295px;
   border: #979493;
+  background: #dbd8d7;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -363,6 +364,7 @@ textarea {
   width: 327px;
   height: 114px;
   border: #d4cfc9;
+  background: #fbf8f7;
   box-sizing: border-box;
   font-weight: 700;
   font-size: 15px;
@@ -382,6 +384,15 @@ textarea {
   width: 131px;
   height: 48px;
 }
+
+.get:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  cursor: pointer;
+}
+
 
 .line {
   width: 375px;
