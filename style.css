@@ -419,26 +419,37 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .navbar-logo {
-    margin-left: 143px;
+    margin-left: 70px;
   }
 
-  .navbar-desk {
+  .navbar-desk, a {
     display: flex;
+    justify-content: space-around;
     list-style: none;
+    text-decoration: none;
+    margin-right: 50px;
+    color: #fff;
   }
 
-  .navbar-menu {
-    display: none;
-  }
-
-  .humburger {
+  .navbar-menu,
+  .humburger{
     display: none;
   }
 
   .header-box {
-    width: 100%;
+    width: 95%;
     height: 791px;
     padding-left: 70px;
+  }
+
+  .header-box {
+    background-size: 695px;
+    width: 95%;
+    background-color: #1c1a19;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom right -110px;
+    background-image: url("./Images/header-illustration.png");
   }
 
   .header-title {
@@ -511,7 +522,7 @@ textarea {
   .inputs {
     display: flex;
     flex-direction: column;
-    padding-top: 145px;
+    padding-top: 115px;
   }
 
   .mine {
@@ -538,6 +549,10 @@ textarea {
   padding: 12px;
   width: 131px;
   height: 48px;
+}
+
+.line {
+  width: 100%;
 }
 
 
