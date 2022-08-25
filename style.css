@@ -418,6 +418,11 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   .navbar-logo {
     margin-left: 70px;
   }
@@ -437,14 +442,14 @@ textarea {
   }
 
   .header-box {
-    width: 95%;
+    width: 100%;
     height: 791px;
     padding-left: 70px;
   }
 
   .header-box {
     background-size: 695px;
-    width: 95%;
+    width: 100%;
     background-color: #1c1a19;
     display: flex;
     background-repeat: no-repeat;
@@ -476,17 +481,19 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
     margin-top: -300px;
+    margin-left: -120px;
   }
 
   .image-p {
     display: grid;
     grid-template-columns: 60% 40%;
-    width: 90%;
+    width: 85%;
     height: 773px;
-    margin-left: 143.5px;
+    margin-left: 80px;
   }
 
   .multi {
+    margin-top: -55px;
     font-family: 'Crete Round';
     font-style: normal;
     font-weight: 400;
@@ -494,6 +501,17 @@ textarea {
     line-height: 52px;
     color: #091E42;
     margin-left: 24px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: 80px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #8993A4;
   }
 
   .cards {
@@ -504,9 +522,37 @@ textarea {
   }
 
   .about-me {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 209px;
+    background-image: url("Images/group.png");
+    background-repeat: no-repeat;
+    background-size: 493px 258px;
+    background-position: top 30% right;
+    margin-left: 20px;
+  }
+
+  .about-head {
+    width: 566px;
+    margin-left: 40px;
+    height: 79px;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.33px;
+    color: #ff6b00;
+  }
+
+  .hello {
     display: flex;
-    margin-left: 142px;
-    width: 38%;
+    padding-right: 850px;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #f4f5f7;
+  }
+
+  .btn {
+    margin-left: 40px;
   }
 
   .tech1 {
@@ -536,11 +582,11 @@ input[type="text"],
 input[type="email"] {
   margin-left: 24px;
   margin-right: 24px;
-  width: 652px;
+  width: 65%;
 }
 
 textarea {
-  width: 684px;
+  width: 100%;
   height: 114px;
 }
 
