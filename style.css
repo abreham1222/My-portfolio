@@ -498,4 +498,11 @@ textarea {
     width: 38%;
   }
 
+  .tech1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  
+
 }
