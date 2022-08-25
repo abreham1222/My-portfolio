@@ -418,5 +418,34 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  
+  .navbar-logo {
+    margin-left: 143px;
+  }
+
+  .navbar-desk {
+    display: flex;
+    list-style: none;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+
+  .humburger {
+    display: none;
+  }
+
+  .header-title {
+    height: 160px;
+    width: 566px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    margin-left: 143px;
+  }
+
+  .header-subtitle {
+    margin-left: 143px;
+  }
+
 }
