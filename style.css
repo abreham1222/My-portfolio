@@ -511,6 +511,7 @@ textarea {
   .inputs {
     display: flex;
     flex-direction: column;
+    padding-top: 145px;
   }
 
   .mine {
@@ -520,6 +521,18 @@ textarea {
     height: 256px;
   }
 
-  
+input[type="text"],
+input[type="email"] {
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 652px;
+}
+
+textarea {
+  width: 684px;
+  height: 114px;
+}
+
+
 
 }
