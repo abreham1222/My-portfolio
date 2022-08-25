@@ -435,6 +435,10 @@ textarea {
     display: none;
   }
 
+  .header-box {
+    height: 791px;
+  }
+
   .header-title {
     height: 160px;
     width: 566px;
@@ -446,6 +450,40 @@ textarea {
 
   .header-subtitle {
     margin-left: 143px;
+  }
+
+  .header-text-description {
+    width: 566px;
+    height: 123px;
+    margin-left: 143px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F4F5F7;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -300px;
+  }
+
+  .sub-recent {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image-placeholder {
+    height: 448px;
+    width: 684px;
+  }
+
+  .multi {
+    height: 48px;
+    width: 448px;
   }
 
 }
