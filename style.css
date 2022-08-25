@@ -503,6 +503,14 @@ textarea {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  
+  .forms {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+  }
 
 }
