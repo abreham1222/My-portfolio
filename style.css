@@ -553,6 +553,28 @@ textarea {
     background-image: url("Images/Placeholder3.png");
   }
 
+  #img1-disc,
+  #img1-tag {
+    display: none;
+  }
+
+  #see-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 330px;
+    width: 95%;
+    height: 48px;
+    background: #ff6b00;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
 /*pppp---------------------------------------------------------------------_*/
 
 .art-print {
