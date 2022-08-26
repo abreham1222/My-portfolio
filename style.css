@@ -422,8 +422,9 @@ textarea {
 }
 
 @media (min-width: 768px) {
-  html, body {
-    margin: o;
+  html,
+  body {
+    margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
@@ -432,7 +433,8 @@ textarea {
     margin-left: 80px;
   }
 
-  .navbar-desk, a {
+  .navbar-desk,
+  a {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -507,12 +509,12 @@ textarea {
 
   .multi {
     margin-top: -55px;
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
     margin-left: 24px;
   }
 
@@ -523,8 +525,8 @@ textarea {
     padding: 10px 12px;
     width: 80px;
     height: 40px;
-    background: #FFFFFF;
-    border: 1px solid #8993A4;
+    background: #fff;
+    border: 1px solid #8993a4;
   }
 
   .cards {
@@ -575,38 +577,38 @@ textarea {
     cursor: pointer;
   }
 
-/*pppp---------------------------------------------------------------------_*/
+  /* pppp---------------------------------------------------------------------_ */
 
-.art-print {
-  width: 100%;
-  padding-top: 50px;
-  font-family: 'Crete Round';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-}
+  .art-print {
+    width: 100%;
+    padding-top: 50px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+  }
 
-.daily-selection {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 24px;
-  width: 100%;
-  height: 72px;
-}
+  .daily-selection {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    width: 100%;
+    height: 72px;
+  }
 
-.pro-tag {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: auto;
-  gap: 12px;
-  margin-left: -20px;
-  margin-top: 40px;
-}
+  .pro-tag {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    gap: 12px;
+    margin-left: -20px;
+    margin-top: 40px;
+  }
 
-  /*-----------------------------------------------------------*/
+  /* ----------------------------------------------------------- */
 
   .about-me {
     padding-top: 120px;
@@ -682,27 +684,26 @@ textarea {
     height: 256px;
   }
 
-input[type="text"],
-input[type="email"] {
-  margin-left: 24px;
-  margin-right: 24px;
-  width: 50vw;
-}
+  input[type="text"],
+  input[type="email"] {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 50vw;
+  }
 
-textarea {
-  width: 50vw;
-  height: 114px;
-}
+  textarea {
+    width: 50vw;
+    height: 114px;
+  }
 
-.get {
-  margin-left: 25px;
-  padding: 12px;
-  width: 131px;
-  height: 48px;
-}
+  .get {
+    margin-left: 25px;
+    padding: 12px;
+    width: 131px;
+    height: 48px;
+  }
 
-.line {
-  width: 100%;
-}
-
+  .line {
+    width: 100%;
+  }
 }
