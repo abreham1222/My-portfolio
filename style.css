@@ -418,16 +418,14 @@ textarea {
 }
 
 @media (min-width: 768px) {
-  /*
-  body {
-    width: 100%;
-  }
-  .contain {
-    width: 100%;
+  html, body {
+    margin: o;
+    padding: 0;
+    overflow-x: hidden;
   }
 
   .navbar-logo {
-    margin-left: 70px;
+    margin-left: 80px;
   }
 
   .navbar-desk, a {
@@ -441,97 +439,6 @@ textarea {
 
   .navbar-menu,
   .humburger{
-    display: none;
-  }
-
-  .header-box {
-    width: 100%;
-    height: 791px;
-    padding-left: 70px;
-  }
-
-  .header-box {
-    background-size: 720px;
-    width: 91%;
-    background-color: #1c1a19;
-    display: flex;
-    background-repeat: no-repeat;
-    background-position: bottom right 10px;
-    background-image: url("./Images/header-illustration.png");
-  }
-
-  .header-title {
-    height: 160px;
-    width: 400px;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 82px;
-  }
-
-  .header-text-description {
-    width: 515px;
-    height: 123px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #F4F5F7;
-  }
-
-  .social-media {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: -300px;
-    margin-left: -120px;
-  }
-
-  .image-p {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    width: 85%;
-    height: 773px;
-    margin-left: 80px;
-  }
-
-  .multi {
-    margin-top: -55px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091E42;
-    margin-left: 24px;
-  }
-
-  .list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 12px;
-    width: 80px;
-    height: 40px;
-    background: #FFFFFF;
-    border: 1px solid #8993A4;
-  }
-  */
-  html, body {
-    margin: o;
-    padding: 0;
-    overflow-x: hidden;
-  }
-
-  .navbar-logo {
-    margin-left: 80px;
-  }
-
-  .navbar-desk {
-    display: flex;
-  }
-
-  .navbar-menu {
     display: none;
   }
 
@@ -579,7 +486,7 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 85%;
-    height: 773px;
+    height: 60vh;
     margin-left: 80px;
   }
 
@@ -610,8 +517,7 @@ textarea {
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 100px;
     margin-right: 143.5px;
-    width: 85%;
-    margin-top: -150px;
+    width: 80%;
     row-gap: 15px;
   }
 
@@ -634,52 +540,38 @@ textarea {
   .see-proj {
     display: none;
   }
+/*pppp---------------------------------------------------------------------_*/
 
-  /*
+.art-print {
+  width: 100%;
+  padding-top: 50px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
 
-  .about {
-    width: 100%;
-  }
+.daily-selection {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  width: 100%;
+  height: 72px;
+}
 
-  .about-me {
-    width: 100%;
-    padding-top: 120px;
-    padding-bottom: 209px;
-    background-image: url("Images/group.png");
-    background-repeat: no-repeat;
-    background-size: 493px 258px;
-    background-position: top 30% right;
-    margin-left: 20px;
-  }
+.pro-tag {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  gap: 12px;
+  margin-left: -20px;
+  margin-top: 40px;
+}
 
-  .about-head {
-    width: 566px;
-    margin-left: 40px;
-    height: 79px;
-    font-size: 72px;
-    line-height: 88px;
-    letter-spacing: 0.33px;
-    color: #ff6b00;
-  }
-
-  .hello {
-    display: flex;
-    padding-right: 850px;
-    padding-left: 40px;
-    font-size: 18px;
-    line-height: 24px;
-    color: #f4f5f7;
-  }
-
-  .btn {
-    margin-left: 40px;
-  }
-
-  .tech1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  */
+  /*-----------------------------------------------------------*/
 
   .about-me {
     padding-top: 120px;
@@ -758,11 +650,11 @@ input[type="text"],
 input[type="email"] {
   margin-left: 24px;
   margin-right: 24px;
-  width: 65%;
+  width: 50vw;
 }
 
 textarea {
-  width: 100%;
+  width: 50vw;
   height: 114px;
 }
 
