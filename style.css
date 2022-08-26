@@ -488,9 +488,10 @@ textarea {
   }
 
   .re-line {
-    width: 60vw;
+    display: flex;
+    width: 60%;
     margin-top: -50px;
-    margin-right: 200px;
+    margin-left: 400px;
   }
 
   .image-p {
