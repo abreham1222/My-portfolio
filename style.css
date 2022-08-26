@@ -482,6 +482,17 @@ textarea {
     margin-top: -300px;
   }
 
+  .recent-work {
+    text-align: left;
+    margin-left: 80px;
+  }
+
+  .re-line {
+    width: 60vw;
+    margin-top: -50px;
+    margin-right: 200px;
+  }
+
   .image-p {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -523,6 +534,7 @@ textarea {
 
   #des-img1 {
     background-image: url("Images/imgplaceholder.png");
+    height: 50vh;
   }
 
   #des-img2 {
@@ -627,10 +639,10 @@ textarea {
     width: 100%;
   }
 
-
   .forms {
     display: flex;
     flex-direction: row;
+    height: 70vh;
   }
 
   .inputs {
@@ -668,6 +680,5 @@ textarea {
 .line {
   width: 100%;
 }
-
 
 }
