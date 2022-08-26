@@ -2,6 +2,10 @@ body {
   margin: auto;
 }
 
+.navbar-desk {
+  display: none;
+}
+
 nav {
   height: 60px;
   display: flex;
@@ -438,7 +442,10 @@ textarea {
   }
 
   .navbar-menu,
-  .humburger{
+  .humburger,
+  .shape,
+  .hr-p,
+  .see-proj {
     display: none;
   }
 
@@ -463,10 +470,6 @@ textarea {
     margin-top: 0;
     width: 566px;
     margin-left: 80px;
-  }
-
-  .hr-p {
-    display: none;
   }
 
   .header-text-description {
@@ -550,9 +553,6 @@ textarea {
     background-image: url("Images/Placeholder3.png");
   }
 
-  .see-proj {
-    display: none;
-  }
 /*pppp---------------------------------------------------------------------_*/
 
 .art-print {
@@ -598,7 +598,7 @@ textarea {
 
   .about-head {
     width: 566px;
-    margin-left: 40px;
+    margin-left: 80px;
     height: 79px;
     font-size: 72px;
     line-height: 88px;
@@ -608,15 +608,16 @@ textarea {
 
   .hello {
     display: flex;
-    padding-right: 600px;
-    padding-left: 40px;
+    text-align: justify;
+    margin-left: 80px;
+    width: 40%;
     font-size: 18px;
     line-height: 24px;
     color: #f4f5f7;
   }
 
   .btn {
-    margin-left: 40px;
+    margin-left: 80px;
   }
 
   .about-separater {
