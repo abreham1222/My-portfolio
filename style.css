@@ -605,15 +605,14 @@ textarea {
     border: 1px solid #8993A4;
   }
 
-
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     margin-left: 100px;
     margin-right: 143.5px;
     width: 85%;
     margin-top: -150px;
+    row-gap: 15px;
   }
 
   #des-img1 {
