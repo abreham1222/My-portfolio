@@ -543,11 +543,13 @@ textarea {
     height: 50vh;
   }
 
-  #des-img2 {
+  #des-img2,
+  #des-img22 {
     background-image: url("Images/placeholder.png");
   }
 
-  #des-img3 {
+  #des-img3,
+  #des-img33 {
     background-image: url("Images/place.png");
   }
 

@@ -2,7 +2,7 @@
 
 # My-portfolio
 
-> This is a project for Desktop Version portfolio that deploy on online using github pages.
+> This is a project for Desktop Version portfolio.
 
 
 ## Built With
