@@ -590,6 +590,7 @@ textarea {
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
+    padding: 40px 10px;
   }
 
   .daily-selection {
@@ -598,8 +599,7 @@ textarea {
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    width: 100%;
-    height: 72px;
+    padding: 10px 5px;
   }
 
   .pro-tag {
@@ -607,8 +607,7 @@ textarea {
     flex-wrap: wrap;
     margin-right: auto;
     gap: 12px;
-    margin-left: -20px;
-    margin-top: 60px;
+    padding: 20px 40px;
   }
 
   /* ----------------------------------------------------------- */
