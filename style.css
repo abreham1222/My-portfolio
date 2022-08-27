@@ -535,7 +535,6 @@ textarea {
     margin-left: 100px;
     margin-right: 143.5px;
     padding: 150px 50px;
-    
     row-gap: 15px;
   }
 
@@ -584,7 +583,6 @@ textarea {
 
   .art-print {
     width: 100%;
-    padding-top: 50px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
