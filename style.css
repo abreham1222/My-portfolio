@@ -534,6 +534,7 @@ textarea {
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 100px;
     margin-right: 143.5px;
+    padding: 200px 50px;
     width: 80%;
     row-gap: 15px;
   }
