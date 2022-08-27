@@ -566,8 +566,8 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 320px;
-    width: 95%;
+    margin-top: 330px;
+    width: 93%;
     height: 48px;
     background: #ff6b00;
     font-family: "Inter", serif;
@@ -682,25 +682,26 @@ textarea {
   .mine {
     text-align: left;
     margin-left: 135px;
-    width: 23%;
+    padding: 130px 95px;
     height: 256px;
   }
 
   input[type="text"],
   input[type="email"] {
-    margin-left: 24px;
+    margin-left: 10px;
     margin-right: 24px;
     width: 50vw;
   }
 
   textarea {
+    margin-left: 10px;
     width: 50vw;
     height: 114px;
   }
 
   .get {
-    margin-left: 25px;
-    padding: 12px;
+    margin-left: 10px;
+    padding: 12px 10px;
     width: 131px;
     height: 48px;
   }
