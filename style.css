@@ -677,12 +677,13 @@ textarea {
     display: flex;
     flex-direction: column;
     padding-top: 115px;
+    padding-right: 100px;
   }
 
   .mine {
     text-align: left;
     margin-left: 135px;
-    padding: 130px 95px;
+    padding: 130px 50px;
     height: 256px;
   }
 
