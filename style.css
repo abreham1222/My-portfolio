@@ -534,8 +534,8 @@ textarea {
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 100px;
     margin-right: 143.5px;
-    padding: 200px 50px;
-    width: 80%;
+    padding: 150px 50px;
+    
     row-gap: 15px;
   }
 
@@ -567,7 +567,7 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 330px;
+    margin-top: 309px;
     width: 93%;
     height: 48px;
     background: #ff6b00;
@@ -590,7 +590,7 @@ textarea {
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    padding: 40px 10px;
+    padding: 35px 10px;
   }
 
   .daily-selection {
@@ -607,7 +607,7 @@ textarea {
     flex-wrap: wrap;
     margin-right: auto;
     gap: 12px;
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
 
   /* ----------------------------------------------------------- */
