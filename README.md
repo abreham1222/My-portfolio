@@ -22,7 +22,7 @@
 
 ## Author
 
-👤 **Abreham Awoke**
+👤 **Abreham Aw**
 
 - GitHub: [@githubhandle](https://github.com/abreham1222)
 - Twitter: [@twitterhandle](https://twitter.com/Abreham1222)
