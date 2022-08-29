@@ -684,9 +684,8 @@ textarea {
     padding: 130px 50px;
     height: 256px;
   }
-  
-  input[type="name"]
-  input[type="email"] {
+
+  input[type="name"] input[type="email"] {
     margin-left: 10px;
     margin-right: 24px;
     width: 50vw;
