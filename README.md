@@ -1,25 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My-portfolio
+# Desktop version Personal Portfolio and deploy to online
 
-> This is a project for Desktop Version portfolio.
-
+> This is a project for Desktop Version portfolio that deploy on online using github pages.
 
 ## Built With
 
 - HTML 5
 - CSS 3
-- JAVASCRIPT
 
 # Live Demo Link
 
-[Live Demo Link](https://abreham1222.github.io/Microverse-portfolio/)
-
+[Live Demo Link](https://abreham1222.github.io/My-portfolio/)
 
 ## Getting Started
 
-**Just clone the project by runing the `git@github.com:abreham1222/My-portfolio.git` command in your command line, and you are done.**
-
+**Just clone the project by runing the `git clone https://github.com/abreham1222/My-portfolio.git` command in your command line, and you are done.**
 
 ## Author
 
