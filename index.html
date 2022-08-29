@@ -15,6 +15,14 @@
   <header>
      <nav class="contain">
       <a href="#" class="navbar-logo">John Doe</a>
+      
+      <ul class="navbar-desk">
+        <li class="navbar-link"><a class="nav-lin" href="#porto">Portfolio <hr class="hr-p"></a></li>
+        <li class="navbar-link"><a class="nav-lin" href="#about-menu">About <hr class="hr-p"></a></li>
+        <li class="navbar-link"><a class="nav-lin" href="#message">Contact <hr class="hr-p"></a></li>
+        <li class="navbar-link"><img src="./Images/Union.png" alt="Email" class="text-white"/></li>
+       </ul>
+
     <div class="humburger">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -23,8 +31,8 @@
     </nav>
   </header>
     <section class="header-box">
-      <section class="header-content">
-        <h1 class="header-title">Hey There. I'm Abreham</h1>
+      <div class="header-content">
+        <h2 class="header-title">Hey There. I'm Abreham</h2>
         <h2 class="header-subtitle">I’m a Software Developer</h2>
         <p class="header-text-description">
           I can help you build a product , feature or website Look through some of my work and experience! If you like
@@ -57,17 +65,17 @@
             </a>
           </li>
         </ul>
-      </section>
+      </div>
     </section>
 
     <section class="recent-container" id="porto">
-      <div class="work-container">
-        <h2 class="recent-work">My Recent Works</h2>
-        <hr>
-      </div>
-      <div class="image-p">
-        <img class="image-placeholder" src="Images/skeloton/placeholder.png" alt="gymfit picture with beutifull girl">
-        <div class="multi">
+       <div class="work-container">
+         <h2 class="recent-work">My Recent Works</h2>
+         <hr class="re-line">
+       </div>
+       <div class="image-p">
+         <img class="image-placeholder" src="Images/skeloton/placeholder.png" alt="gymfit picture with beutifull girl">
+         <div class="multi">
          <h2 class="multi-post">Multi-Post Stories</h2>
          <p class="recent-detail">A daily selection of privately personalized reads; no accounts or sign-ups required.
           has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
@@ -79,10 +87,24 @@
           <li class="list">Ruby</li>
          </ul>
          <button class="project" id="project" type="button">See Project</button>
+         </div>
         </div>
+     <div class="cards">
+      <div class="professional" id="des-img1">
+        <div class="pro-art" id="img1-disc">
+         <h2 class="art-print">Profesional Art Printing Data</h2> 
+          <p class="daily-selection">A daily selection of privately personalized reads;
+            no accounts or sign-ups required. has been the industry's standard
+          </p>
+        </div>
+        <ul class="pro-tag" id="img1-tag">
+          <li class="pro-h">html</li>
+          <li class="pro-h">bootstrap</li>
+          <li class="pro-h">Ruby</li>
+        </ul>
+           <button class="see-proj" id="see-btn" type="button">See Project</button>
       </div>
-
-      <div class="professional">
+      <div class="professional" id="des-img2">
         <div class="pro-art">
          <h2 class="art-print">Profesional Art Printing Data</h2> 
           <p class="daily-selection">A daily selection of privately personalized reads;
@@ -96,7 +118,7 @@
         </ul>
            <button class="see-proj" type="button">See Project</button>
       </div>
-      <div class="professional">
+      <div class="professional" id="des-img3">
         <div class="pro-art">
          <h2 class="art-print">Profesional Art Printing Data</h2> 
           <p class="daily-selection">A daily selection of privately personalized reads;
@@ -110,7 +132,7 @@
         </ul>
            <button class="see-proj" type="button">See Project</button>
       </div>
-      <div class="professional">
+      <div class="professional" id="des-img4">
         <div class="pro-art">
          <h2 class="art-print">Profesional Art Printing Data</h2> 
           <p class="daily-selection">A daily selection of privately personalized reads;
@@ -124,7 +146,7 @@
         </ul>
            <button class="see-proj" type="button">See Project</button>
       </div>
-      <div class="professional">
+      <div class="professional" id="des-img22">
         <div class="pro-art">
          <h2 class="art-print">Profesional Art Printing Data</h2> 
           <p class="daily-selection">A daily selection of privately personalized reads;
@@ -138,21 +160,7 @@
         </ul>
            <button class="see-proj" type="button">See Project</button>
       </div>
-      <div class="professional">
-        <div class="pro-art">
-         <h2 class="art-print">Profesional Art Printing Data</h2> 
-          <p class="daily-selection">A daily selection of privately personalized reads;
-            no accounts or sign-ups required. has been the industry's standard
-          </p>
-        </div>
-        <ul class="pro-tag">
-          <li class="pro-h">html</li>
-          <li class="pro-h">bootstrap</li>
-          <li class="pro-h">Ruby</li>
-        </ul>
-           <button class="see-proj" type="button">See Project</button>
-      </div>
-      <div class="professional">
+      <div class="professional" id="des-img33">
         <div class="pro-art">
          <h2 class="art-print">Profesional Art Printing Data</h2> 
           <p class="daily-selection">A daily selection of privately personalized reads;
@@ -166,6 +174,7 @@
         </ul>
            <button class="see-proj" type="button">See Project</button>
       </div>   
+    </div> 
     </section>
 
      <section class="about" id="about-menu">
@@ -216,11 +225,16 @@
             </div>
         </section>
       <form action="https://formspree.io/f/xlezlkyw" method="post">
-        <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-        <input name="full-name" type="text" placeholder="Full name" maxlength="30" required>
+      <div class="forms">  
+        <p class="mine">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+      <div class="inputs">
+        <div class="ip-name">
+        <input name="full-name" type="text" placeholder="Full name" maxlength="30" required>        </div>
         <input name="email" type="email" placeholder="Email address" required>
         <textarea name="message" id="message" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
         <button class="get" type="submit">Get in touch</button>
+      </div>
+    </div>
         <hr class="line">
       </form>
       <footer>
