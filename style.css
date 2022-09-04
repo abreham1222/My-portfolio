@@ -163,29 +163,27 @@ nav {
 }
 
 .professional {
-  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-position-x: center;
   background-image: url("Images/skeloton/Img Place.png");
   background-repeat: no-repeat;
-  background-size: 95% auto;
-  background-position-x: center;
-  height: 386px;
+}
+
+.pro-art {
+  padding: 5px;
 }
 
 .art-print {
-  height: 30px;
   font-size: 38px;
   line-height: 44px;
   color: #fff;
-  margin-left: 20px;
-  margin-right: auto;
-  margin-top: 50px;
+  margin-left: 30px;
 }
 
 .daily-selection {
-  margin-right: auto;
-  height: 60px;
-  padding-top: 40px;
-  margin-left: 20px;
+  margin-right: 50px;
+  margin-left: 40px;
   font-family: "Inter", serif;
   font-size: 16px;
   line-height: 24px;
@@ -194,11 +192,7 @@ nav {
 
 .pro-tag {
   display: flex;
-  flex-wrap: wrap;
-  margin-right: auto;
   gap: 12px;
-  margin-left: -20px;
-  margin-top: 40px;
 }
 
 .pro-h {
@@ -220,8 +214,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  width: 95%;
+  width: 87%;
   height: 48px;
   background: #ff6b00;
   font-family: "Inter", serif;
@@ -523,7 +516,6 @@ textarea {
     flex-direction: row;
     align-items: center;
     padding: 10px 12px;
-    width: 80px;
     height: 40px;
     background: #fff;
     border: 1px solid #8993a4;
@@ -532,15 +524,16 @@ textarea {
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 100px;
-    margin-right: 143.5px;
-    padding: 150px 50px;
-    row-gap: 15px;
+    width: auto;
+    margin-left: 85px;
+    margin-right: 100px;
+    row-gap: 55px;
+    gap: 15px;
+    height: 100vh;
   }
 
   #des-img1 {
     background-image: url("Images/imgplaceholder.png");
-    height: 50vh;
   }
 
   #des-img2,
@@ -563,11 +556,10 @@ textarea {
   }
 
   #see-btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 309px;
-    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
     height: 48px;
     background: #ff6b00;
     font-family: "Inter", serif;
@@ -581,14 +573,20 @@ textarea {
 
   /* pppp---------------------------------------------------------------------_ */
 
+  .pro-art {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+  }
+
   .art-print {
-    width: 100%;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    padding: 35px 10px;
   }
 
   .daily-selection {
@@ -597,18 +595,16 @@ textarea {
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    padding: 10px 5px;
+    width: 85%;
   }
 
   .pro-tag {
     display: flex;
-    flex-wrap: wrap;
-    margin-right: auto;
+    flex-direction: row;
     gap: 12px;
-    padding: 10px 40px;
   }
 
-  /* ----------------------------------------------------------- */
+  /* about me section--------------------------------------------- */
 
   .about-me {
     padding-top: 120px;
