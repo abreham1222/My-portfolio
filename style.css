@@ -573,6 +573,14 @@ textarea {
 
   /* pppp---------------------------------------------------------------------_ */
 
+  .pro-art {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+  }
+
   .art-print {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -587,13 +595,12 @@ textarea {
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    width: 90%;
+    width: 85%;
   }
 
   .pro-tag {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
     gap: 12px;
   }
 
