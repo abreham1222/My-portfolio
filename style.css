@@ -562,11 +562,10 @@ textarea {
   }
 
   #see-btn {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 350px;
-    width: 90%;
     height: 48px;
     background: #ff6b00;
     font-family: "Inter", serif;
@@ -604,7 +603,7 @@ textarea {
     gap: 12px;
   }
 
-  /* ----------------------------------------------------------- */
+  /* about me section--------------------------------------------- */
 
   .about-me {
     padding-top: 120px;
