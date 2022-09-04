@@ -179,16 +179,16 @@ nav {
   font-size: 38px;
   line-height: 44px;
   color: #fff;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-right: auto;
   margin-top: 50px;
 }
 
 .daily-selection {
-  margin-right: auto;
+  margin-right: 50px;
   height: 60px;
-  padding-top: 40px;
-  margin-left: 20px;
+  margin-top: 50px;
+  margin-left: 40px;
   font-family: "Inter", serif;
   font-size: 16px;
   line-height: 24px;
@@ -200,7 +200,6 @@ nav {
   flex-wrap: wrap;
   margin-right: auto;
   gap: 12px;
-  margin-left: -20px;
   margin-top: 40px;
 }
 
@@ -586,7 +585,7 @@ textarea {
   /* pppp---------------------------------------------------------------------_ */
 
   .art-print {
-    width: auto;
+    width: 85%;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
