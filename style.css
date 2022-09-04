@@ -540,10 +540,6 @@ textarea {
     row-gap: 55px;
     gap: 15px;
   }
-
-  .professional {
-    background-repeat: no-repeat;
-  }
   
   #des-img1 {
     background-image: url("Images/imgplaceholder.png");
@@ -603,15 +599,14 @@ textarea {
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    padding: 10px 5px;
+    width: 95%;
   }
 
   .pro-tag {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     margin-right: auto;
     gap: 12px;
-    padding: 10px 40px;
   }
 
   /* ----------------------------------------------------------- */
