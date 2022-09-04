@@ -163,15 +163,18 @@ nav {
 }
 
 .professional {
-  padding-top: 50px;
-  background-image: url("Images/skeloton/Img Place.png");
-  background-repeat: no-repeat;
+  /*padding-top: 50px;
+  
   background-size: 95% auto;
   background-position-x: center;
-  height: 386px;
+  height: 386px;*/
+  background-position-x: center;
+  background-image: url("Images/skeloton/Img Place.png");
+  background-repeat: no-repeat;
 }
 
 .art-print {
+  padding: 10px;
   height: 30px;
   font-size: 38px;
   line-height: 44px;
@@ -221,7 +224,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  width: 95%;
+  width: 87%;
   height: 48px;
   background: #ff6b00;
   font-family: "Inter", serif;
@@ -534,10 +537,14 @@ textarea {
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 100px;
     margin-right: 143.5px;
-    padding: 150px 50px;
-    row-gap: 15px;
+    row-gap: 55px;
+    gap: 15px;
   }
 
+  .professional {
+    background-repeat: no-repeat;
+  }
+  
   #des-img1 {
     background-image: url("Images/imgplaceholder.png");
     height: 50vh;
@@ -582,13 +589,12 @@ textarea {
   /* pppp---------------------------------------------------------------------_ */
 
   .art-print {
-    width: 100%;
+    width: 85%;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    padding: 35px 10px;
   }
 
   .daily-selection {
