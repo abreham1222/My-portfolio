@@ -163,11 +163,8 @@ nav {
 }
 
 .professional {
-  /*padding-top: 50px;
-  
-  background-size: 95% auto;
-  background-position-x: center;
-  height: 386px;*/
+  display: flex;
+  flex-direction: column;
   background-position-x: center;
   background-image: url("Images/skeloton/Img Place.png");
   background-repeat: no-repeat;
@@ -525,7 +522,6 @@ textarea {
     flex-direction: row;
     align-items: center;
     padding: 10px 12px;
-    width: 80px;
     height: 40px;
     background: #fff;
     border: 1px solid #8993a4;
@@ -585,7 +581,6 @@ textarea {
   /* pppp---------------------------------------------------------------------_ */
 
   .art-print {
-    width: 85%;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
