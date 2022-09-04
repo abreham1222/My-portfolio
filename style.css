@@ -170,21 +170,19 @@ nav {
   background-repeat: no-repeat;
 }
 
+.pro-art {
+  padding: 5px;
+}
+
 .art-print {
-  padding: 10px;
-  height: 30px;
   font-size: 38px;
   line-height: 44px;
   color: #fff;
   margin-left: 30px;
-  margin-right: auto;
-  margin-top: 50px;
 }
 
 .daily-selection {
   margin-right: 50px;
-  height: 60px;
-  margin-top: 50px;
   margin-left: 40px;
   font-family: "Inter", serif;
   font-size: 16px;
@@ -194,10 +192,7 @@ nav {
 
 .pro-tag {
   display: flex;
-  flex-wrap: wrap;
-  margin-right: auto;
   gap: 12px;
-  margin-top: 40px;
 }
 
 .pro-h {
@@ -219,7 +214,6 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
   width: 87%;
   height: 48px;
   background: #ff6b00;
