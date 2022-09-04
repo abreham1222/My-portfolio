@@ -535,15 +535,16 @@ textarea {
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 100px;
-    margin-right: 143.5px;
+    width: auto;
+    margin-left: 85px;
+    margin-right: 100px;
     row-gap: 55px;
     gap: 15px;
+    height: 100vh;
   }
   
   #des-img1 {
     background-image: url("Images/imgplaceholder.png");
-    height: 50vh;
   }
 
   #des-img2,
@@ -569,8 +570,8 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 309px;
-    width: 93%;
+    margin-top: 350px;
+    width: 90%;
     height: 48px;
     background: #ff6b00;
     font-family: "Inter", serif;
@@ -585,7 +586,7 @@ textarea {
   /* pppp---------------------------------------------------------------------_ */
 
   .art-print {
-    width: 85%;
+    width: auto;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -599,13 +600,13 @@ textarea {
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    width: 95%;
+    width: 90%;
   }
 
   .pro-tag {
     display: flex;
     flex-direction: row;
-    margin-right: auto;
+    margin-top: 100px;
     gap: 12px;
   }
 
