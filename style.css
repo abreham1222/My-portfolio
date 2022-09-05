@@ -45,10 +45,30 @@ nav {
   background-image: url("./Images/header-illustration.png");
 }
 
+@media (max-width: 768px) {
+  .humburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .humburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .humburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .humburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+
 .header-content {
   width: 100%;
   padding: 90px 24px;
-}
+}e
 
 .header-title {
   margin: 12px 0;
@@ -64,6 +84,7 @@ nav {
   font-size: 24px;
   color: #fff5e1;
 }
+
 
 .header-text-description {
   font-family: Poppins, sans-serif;
