@@ -27,9 +27,9 @@ nav {
   display: block;
   width: 25px;
   height: 3px;
-  margin: 5px 20px;
+  margin: 5px 30px;
   -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.6s ease-in-out;
   background-color: white;
 }
 
@@ -41,6 +41,69 @@ nav {
   background-repeat: no-repeat;
   background-position: bottom right -110px;
   background-image: url("./Images/header-illustration.png");
+}
+
+/* --------mobile menu------------------- */
+
+@media (max-width: 768px) {
+  .humburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .humburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .humburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    margin-top: 60px;
+  }
+
+  .humburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    margin-right: 40px;
+  }
+
+  .navbar-desk {
+    position: fixed;
+    height: 100vh;
+    left: -100%;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #3c3a39;
+    text-align: left;
+    transition: 0.5s;
+    padding-top: 70px;
+    padding-left: 40px;
+    list-style: none;
+  }
+
+  .navbar-desk a {
+    font-size: 42px;
+    font-weight: bolder;
+    line-height: 44px;
+    font-family: "Inter", serif;
+    color: white;
+  }
+
+  .hr-p {
+    display: flex;
+    width: 85%;
+    color: rgb(175, 169, 169);
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+
+  .text-white {
+    display: none;
+  }
+
+  .navbar-desk.active {
+    width: 100%;
+    left: 0;
+  }
 }
 
 .header-content {
