@@ -1034,8 +1034,10 @@ textarea {
 
   #validator-message {
     color: red;
-    padding-right: 250px;
-    margin-left: -300px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px;
+    margin-right: 50px;
   }
 
   @keyframes drop {
