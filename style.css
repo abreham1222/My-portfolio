@@ -869,6 +869,15 @@ textarea {
     line-height: 44px;
   }
 
+  .xx {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+
 
 
   
