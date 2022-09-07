@@ -437,6 +437,23 @@ textarea {
   display: none;
 }
 
+.modal-mob {
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.xx {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
 
 @media (min-width: 768px) {
   html,
