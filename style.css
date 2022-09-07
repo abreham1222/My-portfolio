@@ -421,6 +421,23 @@ textarea {
   margin-left: 130px;
 }
 
+/*mobile popup-------------------------------------------*/
+.projdesk  {
+  display: none;
+}
+
+.modal-mobile {
+  overflow-x: hidden;
+  position: fixed;
+  top: 70px;
+  left: 15px;
+  border: #adaeb0;
+  background-color: white;
+  width: 90%;
+  display: none;
+}
+
+
 @media (min-width: 768px) {
   html,
   body {
@@ -527,6 +544,31 @@ textarea {
     height: 40px;
     background: #fff;
     border: 1px solid #8993a4;
+  }
+
+  .project {
+    display: none;
+  }
+
+  .projdesk {
+    display: block;
+    width: 124px;
+    height: 48px;
+    margin-top: 15px;
+    background: #ff6b00;
+    color: #fff;
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .projdesk:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
   }
 
   .cards {
@@ -714,4 +756,7 @@ textarea {
   .line {
     width: 100%;
   }
+
+  
+  
 }
