@@ -492,7 +492,9 @@ textarea {
   width: 90%;
   display: none;
   border: 1px solid #ebecf0;
-  box-shadow: 0 48px 48px rgba(0, 0, 0, 0.763);
+  box-shadow: 78px 48px 58px  48px rgba(0, 0, 0, 0.913);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .modal-mob {
@@ -537,6 +539,7 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 }
 
 .modal-wraped {
