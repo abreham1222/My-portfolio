@@ -435,6 +435,8 @@ textarea {
   background-color: white;
   width: 90%;
   display: none;
+  border: px solid #ebecf0;
+  box-shadow: 0px 48px 48px rgba(0, 0, 0, 0.763);
 }
 
 .modal-mob {
