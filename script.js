@@ -60,4 +60,26 @@ const pros = [
     linklive: 'https://abreham1222.github.io/My-portfolio/',
     linkSource: 'https://github.com/abreham1222/My-portfolio.git',
   }];
-  
+
+const SeeProjectB = document.querySelectorAll('.project,.see-proj');
+SeeProjectB.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    const windowPop = document.querySelector('.modal-mobile');
+    windowPop.style.display = 'block';
+    const projectDetail = pros[i];
+    const heading = document.querySelector('.modal-mob');
+    heading.textContent = projectDetail.titleTwo;
+    const paragraph = document.querySelector('.modal-lorems');
+    paragraph.textContent = projectDetail.descriptionTwo;
+    const picture = document.querySelector('.img-mob');
+    picture.src = projectDetail.imageTwo;
+    const languag = document.querySelectorAll('.modal-liste');
+    languag.forEach((li, s) => {
+      li.textContent = projectDetail.languages[s];
+    });
+    const liv = windowPop.querySelector('.see-liv');
+    liv.href = projectDetail.linkLive;
+    const sourc = windowPop.querySelector('.see-sour');
+    sourc.href = projectDetail.linkSor;
+  });
+});
