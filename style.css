@@ -842,6 +842,10 @@ textarea {
     width: 100%;
   }
 
-  
+  /*-----------------desktop popup-----------------*/
+  .modal-mobile {
+    display: none;
+  }
+
   
 }
