@@ -920,12 +920,9 @@ textarea {
   }
 
   .modal-desk {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
     position: fixed;
     top: 100px;
-    left: 13%;
+    left: 10%;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(0, 0, 0, 0.763);
     background-color: #fff;
