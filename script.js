@@ -110,6 +110,12 @@ SeeProjectButton.forEach((item, i) => {
 
 /* -------Form validation part--------------*/
 
+const emailAddress = document.getElementById('email');
+const validatorMessage = document.getElementById('validator-message');
+const btn1 = document.querySelector('.get');
+const form = document.querySelector('#message');
+
+
 const formName = document.querySelector('#name');
 const formEmail = document.querySelector('#email');
 const formText = document.querySelector('#t1');
