@@ -938,14 +938,15 @@ textarea {
   }
 
   .modal-desk {
+    overflow-y: hidden;
     position: fixed;
-    top: 100px;
+    top: 70px;
     left: 10%;
     border: 1px solid #ebecf0;
     box-shadow: 40px -45px 68px 240px rgba(30, 29, 29, 0.763);
     background-color: #fff;
     width: 80%;
-    height: 80vh;
+    height: 80%;
     display: none;
   }
 
@@ -1019,7 +1020,7 @@ textarea {
 
   .see-liv,
   .see-sour {
-    margin-top: 50px;
+    margin-top: 40px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
