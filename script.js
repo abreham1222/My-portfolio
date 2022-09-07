@@ -83,3 +83,26 @@ SeeProjectB.forEach((item, i) => {
     sourc.href = projectDetail.linkSor;
   });
 });
+
+const SeeProjectButton = document.querySelectorAll('.see-proj,.projdesk');
+SeeProjectButton.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    const windowPops = document.querySelector('.modal-desk');
+    windowPops.style.display = 'block';
+    const projectDetail = projd[i];
+    const heading = document.querySelector('.modal-des');
+    heading.textContent = projectDetail.titleOne;
+    const paragraph = document.querySelector('.modal-lorems');
+    paragraph.textContent = projectDetail.descriptionOne;
+    const picture = document.querySelector('.img-mob');
+    picture.src = projectDetail.imageOne;
+    const languag = document.querySelectorAll('.modal-liste');
+    languag.forEach((li, s) => {
+      li.textContent = projectDetail.languages[s];
+    });
+    const live = windowPops.querySelector('.see-live')[0];
+    live.href = projectDetail.linklive;
+    const source = windowPops.querySelector('.see-source')[1];
+    source.href = projectDetail.linkSource;
+  });
+});
