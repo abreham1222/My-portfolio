@@ -39,3 +39,15 @@ function disappeP(t) {
     section.style.filter = 'blur(0px)';
   }
 }
+
+p.addEventListener('click', disappeP);
+
+const pros = [
+  {
+    titleTwo: 'Multi Post Stories',
+    languages: ['html', 'Bootstrap', 'Ruby on Rails'],
+    imageTwo: 'Images/shootportfolio.png',
+    descriptionTwo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type  and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    linkLive: 'https://abreham1222.github.io/My-portfolio/',
+    linkSor: 'https://github.com/abreham1222/My-portfolio.git',
+  }];
