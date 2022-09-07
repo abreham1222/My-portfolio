@@ -1032,6 +1032,14 @@ textarea {
     cursor: pointer;
   }
 
+  #validator-message {
+    color: red;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px;
+    margin-right: 50px;
+  }
+
   @keyframes drop {
     0% {
       top: -100px;
