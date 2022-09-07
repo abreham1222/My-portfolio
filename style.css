@@ -513,6 +513,15 @@ textarea {
   display: none;
 }
 
+@keyframes drop {
+  0% {
+    top: -100px;
+  }
+
+  100% {
+    top: 50%;
+  }
+}
 
 @media (min-width: 768px) {
   html,
