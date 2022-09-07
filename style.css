@@ -910,6 +910,22 @@ textarea {
     width: 100%;
   }
 
+  .img-shooted {
+    width: 100%;
+    height: 90%;
+    margin-left: -5px;
+    margin-right: 10px;
+  }
+  
+  .modal-lorems {
+    margin-top: -10px;
+    margin-right: 10px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
 
 
 
