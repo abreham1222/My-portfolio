@@ -107,3 +107,9 @@ SeeProjectButton.forEach((item, i) => {
     source.href = projectDetail.linkSource;
   });
 });
+
+/* -------Form validation part--------------*/
+
+const formName = document.querySelector('#name');
+const formEmail = document.querySelector('#email');
+const formText = document.querySelector('#t1');
