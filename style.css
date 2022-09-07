@@ -492,7 +492,7 @@ textarea {
   width: 90%;
   display: none;
   border: 1px solid #ebecf0;
-  box-shadow: 78px 48px 58px  48px rgba(0, 0, 0, 0.913);
+  box-shadow: 40px -45px 68px 240px rgba(119, 111, 111, 0.913);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -730,6 +730,18 @@ textarea {
     gap: 5px;
     height: 100%;
   }
+
+  .pointer {
+    position: absolute;
+    left: 18%;
+    top:210%;
+    width: 2%;
+    cursor:  pointer; 
+    }
+
+    .pointer:hover {
+      transform: scale(1.2);
+    }
 
   #des-img1 {
     background-image: url("Images/imgplaceholder.png");
