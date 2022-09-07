@@ -115,6 +115,15 @@ const validatorMessage = document.getElementById('validator-message');
 const btn1 = document.querySelector('.get');
 const form = document.querySelector('#message');
 
+btn1.addEventListener('click', (e) => {
+  if (emailAddress.value !== emailAddress.value.toLowerCase()) {
+    validatorMessage.textContent = 'please the email have to be in lowercase';
+    e.preventDefault();
+  } else {
+    validatorMessage.textContent = '';
+    form.submit();
+  }
+});
 
 const formName = document.querySelector('#name');
 const formEmail = document.querySelector('#email');
