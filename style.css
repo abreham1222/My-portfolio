@@ -481,6 +481,20 @@ textarea {
   justify-content: center;
 }
 
+.modal-wraped {
+  font-family: "Inter", serif;
+  font-style: normal;
+}
+
+.modal-lorems {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+}
 
 
 
