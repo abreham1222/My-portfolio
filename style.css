@@ -847,5 +847,19 @@ textarea {
     display: none;
   }
 
+  .modal-desk {
+    overflow-x: hidden;
+    position: fixed;
+    top: 100px;
+    left: 13%;
+    border: px solid #ebecf0;
+    box-shadow: 0px 48px 48px rgba(0, 0, 0, 0.763);
+    background-color: #fff;
+    width: 75%;
+    height: 80vh;
+    display: none;
+  }
+
+
   
 }
