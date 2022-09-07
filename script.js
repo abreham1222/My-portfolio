@@ -11,7 +11,7 @@ document.querySelectorAll('.nav-lin').forEach((n) => n.addEventListener('click',
   navMenu.classList.remove('active');
 }));
 
-/*-------window popup part--------------*/
+/* -------window popup part--------------*/
 
 const p = document.querySelector('.modal-mobile');
 const b = document.querySelector('.project');
@@ -52,13 +52,13 @@ const pros = [
     linkSor: 'https://github.com/abreham1222/My-portfolio.git',
   }];
 
-  const projd = [ { 
-    titleOne: 'Keeping track of hundreds  of components website',
-    languages: ['html', 'Bootstrap', 'Ruby on Rails'],
-    imageOne: 'Images/snapshoot.png',
-    descriptionOne: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    linklive: 'https://abreham1222.github.io/My-portfolio/',
-    linkSource: 'https://github.com/abreham1222/My-portfolio.git',
+const projd = [ { 
+  titleOne: 'Keeping track of hundreds  of components website',
+  languages: ['html', 'Bootstrap', 'Ruby on Rails'],
+  imageOne: 'Images/snapshoot.png',
+  descriptionOne: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  linklive: 'https://abreham1222.github.io/My-portfolio/',
+  linkSource: 'https://github.com/abreham1222/My-portfolio.git',
   }];
 
 const SeeProjectB = document.querySelectorAll('.project,.see-proj');
