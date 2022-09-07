@@ -18,3 +18,15 @@ const b = document.querySelector('.project');
 const c = document.querySelector('.see-proj');
 const Y = document.querySelector('.xx');
 const section = document.querySelector('section');
+
+function appe() {
+  p.style.display = 'block';
+  section.style.filter = 'blur(10px)';
+}
+b.addEventListener('click', appe);
+c.addEventListener('click', appe);
+
+function disappeY() {
+  p.style.display = 'none';
+  section.style.filter = 'blur(0px)';
+}
