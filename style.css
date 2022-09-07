@@ -734,14 +734,14 @@ textarea {
   .pointer {
     position: absolute;
     left: 18%;
-    top:210%;
+    top: 210%;
     width: 2%;
-    cursor:  pointer; 
-    }
+    cursor: pointer;
+  }
 
-    .pointer:hover {
-      transform: scale(1.2);
-    }
+  .pointer:hover {
+    transform: scale(1.2);
+  }
 
   #des-img1 {
     background-image: url("Images/imgplaceholder.png");
