@@ -898,6 +898,18 @@ textarea {
     padding: 10px;
   }
 
+  .modal-w {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  .modal-wraped {
+    font-family: "Inter", serif;
+    font-style: normal;
+    width: 100%;
+  }
+
 
 
 
