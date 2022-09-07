@@ -151,6 +151,7 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .recent-work {
@@ -545,12 +546,13 @@ textarea {
 
 .modal-lorems {
   display: flex;
-  text-align: center;
+  text-align: left;
   justify-content: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #344563;
+  padding: 10px;
 }
 
 .see-liv,
@@ -562,11 +564,13 @@ textarea {
   line-height: 24px;
   color: #fff;
   background: #f55800;
-  padding: 5px 20px;
+  padding: 10px 20px;
   cursor: pointer;
+  margin-left: 20px;
 }
 
-.modal-desk {
+.modal-desk,
+.see-btn {
   display: none;
 }
 
@@ -715,12 +719,10 @@ textarea {
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: auto;
-    margin-left: 85px;
-    margin-right: 100px;
-    row-gap: 55px;
-    gap: 15px;
-    height: 100vh;
+    margin-left: 95px;
+    margin-right: 120px;
+    gap: 5px;
+    height: 100%;
   }
 
   #des-img1 {
@@ -746,11 +748,11 @@ textarea {
     display: none;
   }
 
-  #see-btn {
+  .see-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 350px;
+    margin-top: 390px;
     height: 48px;
     background: #ff6b00;
     font-family: "Inter", serif;
@@ -759,6 +761,16 @@ textarea {
     letter-spacing: 0.03em;
     color: #fff;
     border: none;
+    cursor: pointer;
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .see-btn:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
     cursor: pointer;
   }
 
@@ -908,14 +920,16 @@ textarea {
   }
 
   .modal-desk {
-    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
     position: fixed;
     top: 100px;
     left: 13%;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(0, 0, 0, 0.763);
     background-color: #fff;
-    width: 75%;
+    width: 80%;
     height: 80vh;
     display: none;
   }
@@ -971,14 +985,16 @@ textarea {
 
   .img-shooted {
     width: 100%;
-    height: 90%;
-    margin-left: -5px;
+    height: 100%;
+    margin-left: 5px;
     margin-right: 10px;
   }
 
   .modal-lorems {
+    width: 424px;
+    height: 336px;
     margin-top: -10px;
-    margin-right: 10px;
+    margin-right: 70px;
     text-align: left;
     font-weight: 400;
     font-size: 16px;
@@ -988,7 +1004,7 @@ textarea {
 
   .see-liv,
   .see-sour {
-    margin-top: 25px;
+    margin-top: 50px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;

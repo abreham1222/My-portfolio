@@ -85,7 +85,7 @@ SeeProjectB.forEach((item, i) => {
   });
 });
 
-const SeeProjectButton = document.querySelectorAll('.see-proj,.projdesk');
+const SeeProjectButton = document.querySelectorAll('.see-btn,.projdesk');
 SeeProjectButton.forEach((item, i) => {
   item.addEventListener('click', () => {
     const windowPops = document.querySelector('.modal-desk');
