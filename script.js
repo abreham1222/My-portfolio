@@ -30,3 +30,12 @@ function disappeY() {
   p.style.display = 'none';
   section.style.filter = 'blur(0px)';
 }
+
+Y.addEventListener('click', disappeY);
+
+function disappeP(t) {
+  if (t.target.className === 'modal-mobile') {
+    p.style.display = 'none';
+    section.style.filter = 'blur(0px)';
+  }
+}
