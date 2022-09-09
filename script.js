@@ -124,3 +124,7 @@ btn1.addEventListener('click', (e) => {
     form.submit();
   }
 });
+
+const formName = document.querySelector('#name');
+const formEmail = document.querySelector('#email');
+const formText = document.querySelector('#t1');
