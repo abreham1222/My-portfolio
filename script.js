@@ -137,3 +137,17 @@ function storeData() {
   };
   localStorage.setItem('formData', JSON.stringify(formData));
 }
+
+function loadData() {
+  if (!localStorage.getItem('formData')) {
+    storeData();
+  }
+  const localData = JSON.parse(localStorage.getItem('formData'));
+  formName.setAttribute('value', localData.name);
+  formEmail.setAttribute('value', localData.email);
+  formText.innerText = localData.msg;
+}
+loadData();
+formName.addEventListener('change', storeData);
+formEmail.addEventListener('change', storeData);
+formText.addEventListener('change', storeData);
